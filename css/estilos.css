@@ -329,3 +329,20 @@ figure {
   height: inherit;
   flex-wrap: inherit;
 }
+
+/* Desktop first que empieza desde el media quary más grande */
+
+@media screen and (max-width: 1024px){
+  body {
+    border: 10px solid green;
+  }
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 480px){
+}
+
+@media screen and (max-width: 320px){
+}
